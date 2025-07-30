@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Temporal Scanner v2 - For Rira</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(#1c1f26, #000000);
+      color: #00ffe1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      margin-top: 2rem;
+      font-size: 2rem;
+      letter-spacing: 2px;
+      text-shadow: 0 0 5px #00fff7, 0 0 10px #08f7fe;
+      animation: glow 3s ease-in-out infinite alternate;
+    }
+
+    h2 {
+      font-weight: normal;
+      font-size: 1rem;
+      margin-top: -0.5rem;
+      margin-bottom: 2rem;
+      color: #cccccc;
+      text-shadow: 0 0 2px #444;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #00fff7; }
+      to { text-shadow: 0 0 20px #00fff7, 0 0 30px #08f7fe; }
+    }
+
+    .codepen {
+      max-width: 90%;
+      width: 800px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 30px #00ffe155;
+      margin-bottom: 3rem;
+      border: 2px solid #00ffe1;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 1rem;
+      font-size: 0.8rem;
+      color: #666;
+      text-align: center;
+    }
+
+    a {
+      color: #39ff14;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+  </style>
+</head>
+<body>
+  <h1>🌀 Temporal Scanner v2</h1>
+  <h2>Scan Earth’s Current Year – lovingly built for Rira, with love from the Doctor</h2>
+
+  <!-- CodePen Embed -->
+  <p class="codepen" data-height="500" data-default-tab="result" data-theme-id="dark" data-slug-hash="ZYbLOaL" data-user="allonsyyyy">
+    <span>See the Pen <a href="https://codepen.io/allonsyyyy/pen/ZYbLOaL">
+    Earth Year Scanner</a> by doctor (<a href="https://codepen.io/allonsyyyy">@allonsyyyy</a>)
+    on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+  <footer>
+    ⌛ Powered by TARDIS Tech &mdash; Time, Universe, and Dimensional Research System | Designed for <strong>Rira</strong> by the <a href="https://codepen.io/allonsyyyy" target="_blank">10th Doctor</a>
+  </footer>
+</body>
+</html>
